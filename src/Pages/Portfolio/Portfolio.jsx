@@ -41,7 +41,7 @@ const Portfolio = () => {
                             <>
                                 {
                                     tabValue === project.tag || tabValue === 'All' ? (
-                                        <div className="col-xs-12 col-sm-6 col-md-4" key={i}>
+                                        <div className="col-xs-12 col-sm-12 col-md-4" key={i}>
                                             <div className="image-flip" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={(pd => (
                                                 setProjectDialog(project)
                                             ))} >

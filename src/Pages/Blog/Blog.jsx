@@ -24,7 +24,7 @@ const Blog = () => {
                                             initial={{ opacity: 0 }}
                                             animate={{ opacity: 1 }}
                                             transition={{ duration: 1.5 }}
-                                            key={i} className="col-md-4">
+                                            key={i} className="col-md-4 col-sm-12">
                                             <div className="card">
                                                 <img className="card-img w-100" src={require(`./asset/${r.image}`).default} alt="Bologna" />
                                                 <div className="card-img-overlay">
