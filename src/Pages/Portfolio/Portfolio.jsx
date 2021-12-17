@@ -97,7 +97,9 @@ const Portfolio = () => {
                                                                 <div className="card-body">
                                                                     <p className="card-text"></p>
                                                                 </div>
+
                                                             </div>
+
                                                         </div>
                                                         <div className="modal-footer">
 

@@ -7,11 +7,11 @@ import Rafsun from "../../component/Profile/asset/rafsun.jpeg"
 import rafsun from "../../component/Profile/asset/rafsun.png"
 
 
-const Profile = () => {
+const Profilemobile = () => {
 
     return (
 
-        <div className="profile mobile-profile shadow-none p-3 mb-5  rounded">
+        <div className="profilemobile shadow-none p-3 mb-5  rounded">
             <div className="profile-top">
                 <motion.h2
                     initial={{ opacity: 0 }}
@@ -105,4 +105,4 @@ const Profile = () => {
     )
 }
 
-export default Profile
+export default Profilemobile

@@ -14,6 +14,7 @@ import Portfolio from './Pages/Portfolio/Portfolio';
 import Resume from './Pages/Resume/Resume';
 
 import Header from './component/Header/Header';
+import Profilemobile from './component/Profile/profilemobile';
 
 function App() {
   return (
@@ -25,10 +26,13 @@ function App() {
 
         </div>
         <div className="col-lg-8 col-md-12" style={{ background: "rgba(29, 30, 36)" }}>
+
           <Router>
 
 
             <Header />
+            <Profilemobile />
+
 
             <Switch>
 
